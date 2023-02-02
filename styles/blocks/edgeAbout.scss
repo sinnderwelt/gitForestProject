@@ -1,0 +1,24 @@
+.edgeAbout {
+    background-color: #b1b953;
+}
+
+.mainAbout {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .aboutHeader {
+        text-align: center;
+
+        h1 {
+            padding-bottom: 12px;
+        }
+
+        p {
+            font-size: 32px;
+            font-weight: 400;
+        }
+    }
+}

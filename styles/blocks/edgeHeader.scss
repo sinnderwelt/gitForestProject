@@ -1,0 +1,41 @@
+.edgeHeader {
+    background: url(../assets/images/background.png) no-repeat;
+
+    .mainHeader {
+        height: 100%;
+    
+        header {
+            display: flex;
+
+            .headerLogo {
+
+                img {
+                    width: 123px;
+                    height: 111px;
+                }
+               
+            }
+
+            .headerMenu {
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                .headerList {
+                    display: flex;                    
+                }
+            }
+        }
+
+
+        .headerContent {
+            padding-top: 310px;
+
+            p {
+                padding-top: 80px;
+                width: 30%;
+                font-size: 32px;
+            }
+        }
+    }
+}

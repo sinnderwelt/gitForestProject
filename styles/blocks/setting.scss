@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
