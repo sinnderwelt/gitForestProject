@@ -31,6 +31,23 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            .aboutIconCircle::before {
+                height: 170px;
+                width: 170px;
+                background-color: #d9d9d9;
+                border-radius: 50%;
+
+
+                // &::before {
+                //     content: "";
+                //     background-image: url(../assets/icons/sprite.svg#pointer);
+                // }
+
+            }
+
         }
     }
+
+
 }
