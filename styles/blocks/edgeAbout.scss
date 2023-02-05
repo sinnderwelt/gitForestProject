@@ -32,20 +32,34 @@
             align-items: center;
             justify-content: center;
 
-            .aboutIconCircle::before {
-                height: 170px;
-                width: 170px;
+            .aboutIcon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 173px;
+                width: 173px;
                 background-color: #d9d9d9;
                 border-radius: 50%;
+                margin-bottom: 50px;
 
+                #aboutIconGlobe {
+                    height: 85px;
+                    width: 85px; 
+                }
 
-                // &::before {
-                //     content: "";
-                //     background-image: url(../assets/icons/sprite.svg#pointer);
-                // }
+                #aboutIconPointer {
+                    height: 95px;
+                    width: 95px; 
+                }
 
+                #aboutIconBinocular {
+                    height: 75px;
+                    width: 75px; 
+                }
+    
             }
 
+            
         }
     }
 
