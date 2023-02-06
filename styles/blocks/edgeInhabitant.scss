@@ -1,0 +1,37 @@
+.edgeInhabitant {
+    background-color: #B9536B;
+
+    .mainInhabitant {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .inhabitantContent {
+            display: flex;
+
+            .inhabitantCards {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 300px;
+
+                .inhabitantImage {
+                    margin-bottom: 35px;
+                    height: 310px;
+                }
+                .inhabitantText {
+                    text-align: center;
+
+                    p {
+                        margin-top: 8px;
+                        font-size: 18px;
+                        padding: 0px 54px;
+                    }
+                }
+            }
+        }
+    }
+}
