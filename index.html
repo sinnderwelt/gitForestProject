@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Медиа-запрос -->
   <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Alegreya Sans -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Alegreya Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- Alegreya Sans -->
@@ -111,8 +112,10 @@
                   <img src="../assets/images/rabbit.png" alt="">
                 </div>
                 <div class="inhabitantText">
-                  <h2>Милые зайчики</h2>
-                  <p>Если перестать их гладить, могут разорвать в клочья</p> 
+                  <h2 class="inHabitantTitle" data-tab="#tab_1">Милые зайчики</h2>
+                  <div class="inhabitantHidden" id="#tab_1">
+                    <p>Если перестать их гладить, могут разорвать в клочья</p> 
+                  </div>
                 </div>
               </div>
               <div class="inhabitantCards">
@@ -120,8 +123,10 @@
                   <img src="../assets/images/fairy.png" alt="">
                 </div>
                 <div class="inhabitantText">
-                  <h2>Помощницы-феи</h2>
-                  <p>Готовят любовные зелья. Смотри не попади под их чары</p> 
+                  <h2 class="inHabitantTitle" data-tab="#tab_2">Помощницы-феи</h2>
+                  <div class="inhabitantHidden" id="#tab_2">
+                    <p>Готовят любовные зелья. Смотри не попади под их чары</p> 
+                  </div>
                 </div>
               </div>
               <div class="inhabitantCards">
@@ -129,8 +134,10 @@
                   <img src="../assets/images/gwarf.png" alt="">
                 </div>
                 <div class="inhabitantText">
-                  <h2>Любвеобильные гномы</h2>
-                  <p>Ходят слухи, поцелованные гномами пропадают бесследно</p> 
+                  <h2 class="inHabitantTitle" data-tab="#tab_3">Любвеобильные гномы</h2>
+                  <div class="inhabitantHidden" id="#tab_3">
+                    <p>Ходят слухи, поцелованные гномами пропадают бесследно</p> 
+                  </div>
                 </div>
               </div>
             </div>
