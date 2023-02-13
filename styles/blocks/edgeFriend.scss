@@ -6,6 +6,10 @@
         display: flex;
         position: relative;
 
+        @include tablets {
+            height: 100%;
+          }
+
         .friendContent {
             flex: 1;
             display: flex;
@@ -13,22 +17,50 @@
             justify-content: space-evenly;
             margin: 0 75px;
 
-            li {
-                font-size: 32px;
-            }
+            @include tablets {
+                justify-content: center;
+                margin: auto 22px;
+              }
 
             h1 {
                 text-align: center;
+
+                @include tablets {
+                    margin-bottom: 30px;
+                }
+            }
+
+            li {
+                font-size: 32px;
+
+                @include tablets {
+                    font-size: 28px;
+                }
+
+                @include phones {
+                    font-size: 24px;
+                }
             }
         }
 
         .friendImage {
             display: flex;
             justify-content: flex-end;
+
+            @include tablets {
+                display: none;
+              }
             
-            img {
-                height: 100vh;
-                width: auto;
+            .test {
+                max-width: 100%;
+                overflow: hidden;
+
+                img {
+                    height: 100vh;
+                    width: auto;
+
+
+                }
             }
         }
     }

@@ -5,6 +5,10 @@
        display: flex;
        height: 100%;
 
+       @include phones {
+        flex-direction: column-reverse;
+       }
+
        .footerImage {
             position: relative;
             width: 100%;
@@ -39,6 +43,11 @@
                 right: 0;
                 font-size: 32px;
                 color: #D9D9D9;
+
+                @include tablets {
+                    font-size: 24px;
+                    text-align: center;
+                  }
             }
         }
     }
