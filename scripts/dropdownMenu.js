@@ -1,36 +1,36 @@
-$('.inhabitantVisible').click(e => {
+;
+    $('.inhabitantVisible').click(e => {
 
-    const $this = $(e.currentTarget);
-    const container = $this.closest('.inhabitantContent');
-    const elemContainer = $this.closest(".inhabitantCards");
+     const $this = $(e.currentTarget);
+     const container = $this.closest('.inhabitantContent');
+     const elemContainer = $this.closest(".inhabitantCards");
 
-    if (elemContainer.hasClass("active")) {
-        
-    closeEveryItem(container);
+     if (elemContainer.hasClass("active")) {
+     closeEveryItem(container);
 
-    } else {
+     } else {
 
-    closeEveryItem(container);
-    openItem($this);
-        
-    }    
-})
+     closeEveryItem(container);
+     openItem($this); 
+     }
+    })
 
-const openItem = item => {
+    const openItem = item => {
 
-    const container = item.closest(".inhabitantCards");
-    const contentBlock = container.find(".inhabitantHidden");
-    const textBlock = contentBlock.find(".inhabitantHiddenBlock");
-    const reqHeight = textBlock.height();
+     const container = item.closest(".inhabitantCards");
+     const contentBlock = container.find(".inhabitantHidden");
+     const textBlock = contentBlock.find(".inhabitantHiddenBlock");
+     const reqHeight = textBlock.height();
 
-    container.addClass("active");
-    contentBlock.height(reqHeight);
-}
+     container.addClass("active");
+     contentBlock.height(reqHeight);
+    }
 
-const closeEveryItem = container => {
-    const items = container.find('.inhabitantHidden');
-    const itemContainer = container.find(".inhabitantCards");
+    const closeEveryItem = container => {
 
-    itemContainer.removeClass("active");
-    items.height(0);
-}
+     const items = container.find('.inhabitantHidden');
+     const itemContainer = container.find(".inhabitantCards");
+     
+     itemContainer.removeClass("active");
+     items.height(0);
+    }

@@ -10,6 +10,8 @@
 
         .inhabitantContent {
             display: flex;
+            width: 100%;
+            justify-content: space-between;
 
             .inhabitantCards {
                 position: relative;
@@ -22,6 +24,10 @@
                 .inhabitantImage {
                     margin-bottom: 35px;
                     height: 310px;
+
+                    img {
+                            max-width: 100%;
+                    }
                 }
 
                 h2 {
